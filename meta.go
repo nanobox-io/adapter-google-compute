@@ -7,7 +7,7 @@ import (
 func (gc GoogleCompute) Meta() provider.Metadata {
 	return provider.Metadata{
 		ID: "gc",
-		Name: "Google Compute",
+		Name: "Google Compute (beta)",
 		NickName: "instance",
 		DefaultRegion: "us-west1-a",
 		DefaultPlan: "standard",
